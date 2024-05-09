@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  background-color: rgb(187, 212, 233);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 20px;
+}
+.card1 {
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  background-color: aliceblue;
+  text-align: center;
+}
+.card1:hover,
+.card2:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card2 {
+  border-radius: 5px;
+  max-width: 400px;
+  background-color: aliceblue;
+  padding: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.third-ctn {
+  text-align: center;
+  width: 300px;
+}
+.btn {
+  border: 1px solid blue;
+  color: rgb(12, 41, 230);
+
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin: 20px 0;
+  height: 40px;
+  width: 130px;
+  border-radius: 4px;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(71, 71, 236);
+}
+.btn1:hover {
+  border: 1px solid blue;
+  color: blue;
+  background-color: aliceblue;
+}
+.btn1 {
+  color: white;
+  border: none;
+  background-color: rgb(71, 71, 236);
+  cursor: pointer;
+  margin: 20px 0;
+  height: 40px;
+  width: 130px;
+  border-radius: 4px;
+}
+hr {
+  margin: 20px;
+  border-bottom: 0.1px solid rgb(255, 255, 255);
+}
+.statics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secon {
+  position: relative;
+  bottom: 30px;
+}
+.xxx1 {
+  font-size: 40px;
+}
+.xxx {
+  font-size: 40px;
+}
+.simple {
+  padding-bottom: 15px;
+}
+.logs {
+  padding-bottom: 15px;
+}
+@media (min-width: 900px) {
+  body {
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  .card1 {
+    height: 50%;
+  }
+}
